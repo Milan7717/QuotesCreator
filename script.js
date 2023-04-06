@@ -5,12 +5,12 @@ const authorEl = document.getElementById("author");
 
 
 
-const apiURL = "http://api.quotable.io/random";
+const apiURL = " https://api.quotable.io/random ";
 
 //creating function
 async function getQuote() {
-    
-      
+
+
 
         //upadting new quote in quote container
         quoteEl.innerText = "Updating....";
@@ -29,9 +29,9 @@ async function getQuote() {
         quoteEl.innerText = quoteContent;
         authorEl.innerText = "~" + " " + quoteAuthor;
 
-      
+
         console.log(data);
-   
+
 
 }
 
